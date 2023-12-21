@@ -5,7 +5,7 @@
 
 <template>
 
-    <header class="bg-darkBlue px-4 py-6 text-white shadow">
+    <header class="bg-darkBlue px-4 py-6 text-white shadow min-w-full">
         
         <div class="flex justify-between items-center">
             

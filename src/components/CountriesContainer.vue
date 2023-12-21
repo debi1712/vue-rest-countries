@@ -54,7 +54,7 @@
 
 <template>
 
-    <div class = "mt-12">
+    <div class = "mt-12 min-h-screen">
         <ul class = "flex gap-8 flex-wrap justify-center">
             <CountryCard v-for="country in state.countries" :key="country.name.common" :country="country"/>
         </ul>

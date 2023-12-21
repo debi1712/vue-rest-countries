@@ -8,7 +8,7 @@ const correoElectronicoLink = `mailto:${correoElectronico}`;
 
 <template>
 
-    <footer class="flex justify-between items-center bg-darkBlue text-white mt-5 pt-6 pb-6">
+    <footer class="justify-between items-center bg-darkBlue text-white pt-6 pb-6 flex min-w-full">
         <p class="pl-5">Deborah De Santiago</p>
         <a :href="correoElectronicoLink" class="pr-5">{{correoElectronico}}</a>
     </footer>

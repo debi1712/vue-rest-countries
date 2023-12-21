@@ -20,7 +20,7 @@
             <button @click="$emit('handleQuery', query)">
                 <img src="../assets/design/icons/searchw.svg" alt="">
             </button>
-            <input v-model="query" class="text-white bg-darkBlue pl-2" type="text" placeholder="Search for a country">
+            <input v-model="query" class="text-white bg-darkBlue pl-2" type="text" placeholder="Search for a country" v-on:keyup.enter="$emit('handleQuery', query)">
         </div>
 
         <select class="bg-darkBlue px-6 py-3 rounded-md text-white shadow">
