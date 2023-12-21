@@ -35,7 +35,7 @@
 <template>
 
     <main  class="text-white min-h-screen flex-col p-8">
-        <router-link to="/" class="p-2 mt-24 bg-darkBlue border-x-veryDarkBlueLight">Back</router-link>
+        <router-link to="/" class="p-4 mt-24 bg-darkBlue border-x-veryDarkBlueLight rounded-md">Back</router-link>
         <h1 class="mt-8 ml-12">Country code by alpha-3 code: {{ route.params.alpha3Code }}</h1>
     </main>
 
